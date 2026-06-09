@@ -1,0 +1,4 @@
+# Redirect http to https (Vercel handles this automatically, but just in case)
+http://glammedbynoma.com/* https://www.glammedbynoma.com/:splat 301!
+http://www.glammedbynoma.com/* https://www.glammedbynoma.com/:splat 301!
+glammedbynoma.com/* https://www.glammedbynoma.com/:splat 301!
